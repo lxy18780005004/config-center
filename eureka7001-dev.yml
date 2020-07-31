@@ -8,3 +8,9 @@ eureka:
     instance-id: eureka7001
     prefer-ip-address: true
     hostname: eureka7001
+spring:
+  rabbitmq:
+    host: 192.168.1.8
+    port: 5672
+    username: admin
+    password: admin
